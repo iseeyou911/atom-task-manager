@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle task-manager",
+        "command": "task-manager:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "task-manager",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "task-manager:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
